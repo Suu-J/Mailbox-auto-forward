@@ -9,7 +9,7 @@ Detect emails being received to a specific folder and automatically forwards it 
 - **forwardv2.py** - Email forwarding script (version 2)
 - **forwardv3.py** - Email forwarding script (version 3)
 - **forwardv4.py** - Email forwarding script (version 4)
-- **test_connection.py** - IMAP connection and email marking utility - Pushing
+- **test_connection.py** - IMAP connection and email marking utility - Pushed
 
 ## Typical Workflow
 1. Connect to IMAP server
