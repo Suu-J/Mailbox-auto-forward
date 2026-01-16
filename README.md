@@ -5,7 +5,7 @@ Detect emails being received to a specific folder and automatically forwards it 
 
 ## Scripts
 
-- **forward.py** - Email forwarding script (version 1) 
+- **auto_forward_no_editing.py** - Email forwarding script as is
 - **forwardv2.py** - Email forwarding script (version 2)
 - **forwardv3.py** - Email forwarding script (version 3)
 - **forwardv4.py** - Email forwarding script (version 4)
