@@ -1,5 +1,5 @@
 '''
-Docstring for Script email_automation.test_connection
+Script purpose: Test connection to the imap server, for reference and templates
 
 you have to give username and password like usual for this,
 use the imap library for connecting to outlook's imap server, mail.select i think is folder selection
