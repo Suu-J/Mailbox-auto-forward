@@ -1,8 +1,7 @@
 '''
-Docstring for Script email_automation.
-
 I honestly forgot why i made this version
 
+Flow:
 Connect to Outlook's IMAP server
 Search for unread emails, mail.search returns a tuple
     Iterate through each unread email
@@ -52,7 +51,7 @@ if result == "OK":
         forward_msg.attach(MIMEText(email_body, "plain"))
 
         with smtplib.SMTP("smtp.office365.com", 587) as server:
-            server.starttls()  # securing the connection
+            server.starttls()  # securing the connection in trasnsit
             server.login(outlook_username, outlook_password)
             server.sendmail(outlook_username, forward_to, forward_msg.as_string())
     print("Forwarded all unread emails.")
