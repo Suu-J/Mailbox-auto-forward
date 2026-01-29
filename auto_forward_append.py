@@ -66,6 +66,5 @@ if result == "OK":
             server.sendmail(outlook_username, forward_to, forward_msg.as_string())
     print("Forwarded all unread emails.")
 
-# Closing the connection to the IMAP server
 mail.close()
 mail.logout()
