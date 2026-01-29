@@ -15,7 +15,7 @@ forward_to = ""
 mail = imaplib.IMAP4_SSL(outlook_server)
 mail.login(outlook_username, outlook_password)
 # The folder to peek into
-mail.select("autotest")
+mail.select("instant_forward")
 
 # Searching for unread emails, mail.search returns a tuple
 result, data = mail.search(None, "(UNSEEN)")
